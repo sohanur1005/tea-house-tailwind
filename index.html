@@ -13,16 +13,26 @@
 <!-- Icon cdn -->
  <script src="https://kit.fontawesome.com/c6259c8c56.js" crossorigin="anonymous"></script>
 
- <style type="text/tailwindcss">
-      @theme {
-        --color-clifford: #da373d;
-      }
-    </style>
+
+   <script>
+    tailwind config ={
+        theme: {
+            extend: {
+                colors: {
+                    clifford: '#daa373d',
+                }
+                fontFamily: {
+                    'manrope': {'Manrope', sans-serif},
+                }
+            }
+        }
+    }
+     </script>
 
 
 
 </head>
-<body>
+<body class="font-manrope">
     <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
         <header class="md:flex lg:flex pt-10 mb-20">
             <div>
